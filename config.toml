@@ -1,0 +1,4 @@
+baseURL = 'https://zasch.github.io/'
+languageCode = 'en-US'
+title = "Zasch's blog"
+theme = 'ananke'
