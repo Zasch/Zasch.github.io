@@ -2,3 +2,36 @@ baseURL = 'https://zasch.github.io/'
 languageCode = 'en-US'
 title = "Zasch's blog"
 theme = 'ananke'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'imprint'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'getting started'
+  post = "<span class='alert'>New!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url = '/getting-started/'
+  weight = -100
+
+[permalinks]
+  posts = '/:year/:month/:title/'

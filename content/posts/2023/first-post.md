@@ -11,3 +11,9 @@ Test Text
 ### Sub
 
 More **text** on [Zasch's Blog](https://zasch.github.io)!
+
+{{<highlight java "linenos=table,hl_lines=2">}}
+//...
+public static final String java = "Java";
+//...
+{{</highlight>}}
